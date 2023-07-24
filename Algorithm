@@ -1,0 +1,52 @@
+Steps of the Algorithm  
+
+create a function takes an arr
+interate from right to left
+set up a varaible that hold our value
+when interating we want to doulbe every other number that is not divible by two(odd number)
+substract currentValue(number) 9
+
+
+Tasks number 2 
+
+create another function that takes one parameter(for a nested arrary)
+check through the nested array for invalid numbers (use the function from the privious to get the valid or invalid)
+should return another nested array of invalid cards
+
+Task number 3 
+
+create another function that takes one paramenter(for a nested array)
+returns an array of companies 
+
+
+create a function idInvalidCardCompanies() and takes on paramenter 
+create an array - arr
+return array of the companies
+use a switch to make a list of statements
+if the number doesn't start with what we have in our switch list above print " Company not found"
+return array and should not have duplicates
+
+
+
+
+Create a function idInvalidCardCompanies() that takes one parameter, which is a nested array of invalid credit card numbers.
+
+Initialize an empty array to store the names of companies with invalid card numbers.
+
+Iterate through each invalid card number in the nested array.
+
+For each invalid card number, check the first digit to identify the company it belongs to.
+
+If the first digit is 3, add "Amex" (American Express) to the company array.
+
+If the first digit is 4, add "Visa" to the company array.
+
+If the first digit is 5, add "Mastercard" to the company array.
+
+If the first digit is 6, add "Discover" to the company array.
+
+If the first digit does not match any of the above, print a message like "Company not found."
+
+After iterating through all invalid card numbers, remove any duplicates from the company array (if any).
+
+Return the final company array containing the names of companies with invalid card numbers.
